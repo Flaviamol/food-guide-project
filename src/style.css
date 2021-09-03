@@ -16,11 +16,15 @@ body{
     background-color: #eaf8f0;
 }
 
+.navbar{
+    background-color: var(--primary-color) !important;
+}
+
 .hero {
     background: url("../images/image1.jpg") ;
     height: 70vh;
     background-size: cover;
-    margin: 160px 40px;
+    margin: 30px 40px;
     padding: 30px 20px;
 }
 
