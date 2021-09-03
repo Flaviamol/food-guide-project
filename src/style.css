@@ -28,9 +28,10 @@ body{
 
 .hero {
     background: url("../images/image1.jpg") ;
+    background-position: 30% 70%;
     height: 70vh;
     background-size: cover;
-    margin: 30px 40px;
+    margin: 30px 80px;
     padding: 30px 20px;
 }
 
