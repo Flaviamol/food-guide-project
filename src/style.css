@@ -7,9 +7,15 @@ h1, h2, h3{
     font-weight: bold;
 }
 
+h3{
+    font-size: 64px;
+}
+
 p{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
 }
 
 body{
@@ -47,4 +53,21 @@ body{
     color: white;
     font-size: 18px;
     padding: 12px 20px;
+}
+
+@media (max-width: 960px){
+    p {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 36px;
+        margin-top: 30px;
+    }
+
+    .btn-branding {
+        display: flex;
+        justify-content: center;
+    }
 }
