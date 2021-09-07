@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Suggestion</title>
+    <meta name="description" content="website with restaurant suggestions and delicious food photos. Made by Flávia Mól, Frontend web developer as a shecodes homework">
+    <title>Restaurant Suggestion with photos of food</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -15,26 +16,26 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">International Food Guide</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="restaurants.html">Restaurants</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About Me</a>
-              </li>
-            </ul>
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" title="homepage">International Food Guide</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html" title="homepage">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="restaurants.html" title="restaurant suggestion">Restaurants</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" title="about me page">About Me</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
       <div class="about-section container">
         <h1 class="mb-4 text-center" id="athens-section">Athens</h1>
@@ -171,31 +172,32 @@
 
       </div> 
       <div class="container">
-        <footer>
-          <div class="row">
-            <div class="col d-none d-lg-block">
-              <img src="images/undraw_Eating.svg" alt="eating together" class="footer-image">
-            </div>
-            <div class="col">
-              <div class="row mt-3">
-                <div class="col-12">
-                  <a href="mailto:flavia@shecodes.io" class="email-link d-flex justify-content-center">flavia@shecodes.io</a>
-                </div>
-                <div class="col-12 social-links d-flex justify-content-center mt-2">
-                  <a href="https://www.instagram.com/flaymol/">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                  <a href="https://github.com/Flaviamol">
-                    <i class="fab fa-github"></i>
-                  </a>
-                  <a href="https://www.linkedin.com/in/flávia-caiafa-mól-00595bb1/">
-                    <i class="fab fa-linkedin"></i>
-                  </a>
-                </div>
+      <footer>
+        <div class="row">
+          <div class="col d-none d-lg-block">
+            <img src="images/undraw_Eating.svg" alt="eating together" class="footer-image">
+          </div>
+          <div class="col">
+            <div class="row mt-3">
+              <div class="col-12">
+                <a href="mailto:flavia@shecodes.io" class="email-link d-flex justify-content-center" title="flavia email">flavia@shecodes.io</a>
+              </div>
+              <div class="col-12 social-links d-flex justify-content-center mt-2" title="flavia instagram page">
+                <a href="https://www.instagram.com/flaymol/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://github.com/Flaviamol" title="flavia github page">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/flávia-caiafa-mól-00595bb1/" title="flavia linkedin page">
+                  <i class="fab fa-linkedin"></i>
+                </a>
               </div>
             </div>
           </div>
-        </footer>
-      </div>
+        </div>
+      </footer>
+      <p class="text-center text-muted">This project was coded for a homework and it is <a href="https://github.com/Flaviamol/food-guide-project" class="link-secondary">Open-Sourced</a> </p>
+    </div>
 </body>
 </html>
